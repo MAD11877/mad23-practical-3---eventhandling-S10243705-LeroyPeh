@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        User user1 = new User("Rae", "Smart", 25, true);
+        User user1 = new User("Leroy", "Cool", 25, true);
         user1.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
 
         user1.setName("MAD" + randomNoGenerator() );
